@@ -122,7 +122,6 @@ mod tests {
 
     #[test]
     fn test_one() {
-        // test input and expect_out come from here
         let file: File = File::open("./src/test/one.txt").unwrap();
         let output: u64 = part_one(file);
         println!("answer to part one test: {}", output);
@@ -131,7 +130,6 @@ mod tests {
 
     #[test]
     fn real_one() {
-        // test input and expect_out come from here
         let file: File = File::open("./src/real/one.txt").unwrap();
         let output: u64 = part_one(file);
         println!("answer to part one real: {}", output);
